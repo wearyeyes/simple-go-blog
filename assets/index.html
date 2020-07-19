@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style/styles.css">
+
+    <title>SimpleBlog</title>
+</head>
+<body>
+    <h1>Simple Go Blog</h1>
+
+    <form action="" method="POST">
+        <div>
+            <textarea name="newpost" placeholder="Create new post..."></textarea>
+        </div>
+        <div class="btn">
+            <input type="submit" value="Post">
+        </div>
+    </form>
+
+    <div class="line">
+        <hr size="1" noshade>
+    </div>
+
+    <ul>
+        {{range .Posts}}
+        <li class="post"> 
+            <div>
+                {{.Text}}
+            </div>
+
+            <div class="time">
+                {{.Time}}
+            </div>
+        </li>
+        {{end}} 
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    color: #102773;
+} 
+
+.line {
+    margin-bottom: 40px;
+    color: rgba(1, 1, 1, 0.5);
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+.post {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(1, 1, 1, 0.5);
+}
+
+.time {
+    font-size: 10px;
+    color: rgba(1, 1, 1, 0.8);
+    margin-top: 10px;
+}
+
+textarea {
+    width: 600px;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid rgba(1, 1, 1, 0.5);
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+input {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid rgba(1, 1, 1, 0.5);
+    border-radius: 5px;
+    width: 80px;
+}
+
+.btn {
+    margin-top: 6px;
+    position: absolute;
+    right: 0px;
+}

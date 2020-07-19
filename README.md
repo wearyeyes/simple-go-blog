@@ -1,2 +1,6 @@
 # simple-go-blog
-My first blog web-site
+
+This is my firts blog web-site. 
+I used Golang and HTML with CSS for building it. Server use gorilla/mux package for routing. 
+
+
